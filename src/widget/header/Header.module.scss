@@ -1,0 +1,53 @@
+.header {
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+  height: auto;
+
+  background-color: var(--dark-700);
+  border-bottom: 1px solid var(--dark-300);
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 60px;
+}
+
+.logoWrapper {
+  display: flex;
+  align-items: center;
+  margin: 6px 0;
+}
+
+.itemsWrapper {
+  display: flex;
+  gap: 0 48px;
+  align-items: center;
+  justify-content: flex-end;
+
+  width: 100%;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  width: 200px;
+  height: auto;
+}
+
+.logo path {
+  fill: var(--accent-500);
+  transition: fill 0.3s;
+}
+
+.logo:hover path {
+  fill: var(--success-300);
+}
+
+.bell {
+  width: 24px;
+  height: 24px;
+}

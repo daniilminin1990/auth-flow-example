@@ -1,0 +1,16 @@
+.title {
+  font-weight: 700;
+  text-align: center;
+}
+
+.subTitle {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  margin-top: 22px;
+}
+
+.google,
+.github {
+  cursor: pointer;
+}
